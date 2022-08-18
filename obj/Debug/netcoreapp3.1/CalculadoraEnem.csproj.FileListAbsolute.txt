@@ -4,10 +4,11 @@ C:\Users\Thiago\Desktop\CalculadoraEnem\bin\Debug\netcoreapp3.1\CalculadoraEnem.
 C:\Users\Thiago\Desktop\CalculadoraEnem\bin\Debug\netcoreapp3.1\CalculadoraEnem.runtimeconfig.dev.json
 C:\Users\Thiago\Desktop\CalculadoraEnem\bin\Debug\netcoreapp3.1\CalculadoraEnem.dll
 C:\Users\Thiago\Desktop\CalculadoraEnem\bin\Debug\netcoreapp3.1\CalculadoraEnem.pdb
-C:\Users\Thiago\Desktop\CalculadoraEnem\obj\Debug\netcoreapp3.1\CalculadoraEnem.csprojAssemblyReference.cache
 C:\Users\Thiago\Desktop\CalculadoraEnem\obj\Debug\netcoreapp3.1\CalculadoraEnem.AssemblyInfoInputs.cache
 C:\Users\Thiago\Desktop\CalculadoraEnem\obj\Debug\netcoreapp3.1\CalculadoraEnem.AssemblyInfo.cs
 C:\Users\Thiago\Desktop\CalculadoraEnem\obj\Debug\netcoreapp3.1\CalculadoraEnem.csproj.CoreCompileInputs.cache
 C:\Users\Thiago\Desktop\CalculadoraEnem\obj\Debug\netcoreapp3.1\CalculadoraEnem.dll
 C:\Users\Thiago\Desktop\CalculadoraEnem\obj\Debug\netcoreapp3.1\CalculadoraEnem.pdb
 C:\Users\Thiago\Desktop\CalculadoraEnem\obj\Debug\netcoreapp3.1\CalculadoraEnem.genruntimeconfig.cache
+C:\Users\Thiago\Desktop\CalculadoraEnem\obj\Debug\netcoreapp3.1\CalculadoraEnem.csproj.AssemblyReference.cache
+C:\Users\Thiago\Desktop\CalculadoraEnem\obj\Debug\netcoreapp3.1\CalculadoraEnem.GeneratedMSBuildEditorConfig.editorconfig

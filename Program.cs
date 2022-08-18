@@ -5,18 +5,32 @@ namespace CalculadoraEnem
     class Program
     {
         // Pesos
-        float pesoLing;
-        float pesoHum;
-        float pesoNat;
-        float pesoMat;
+        double pesoLing;
+        /*double pesoHum;
+        double pesoNat;
+        double pesoMat;
+        double pesoRed;/*
 
         // Notas
-        double notaMat;        
+        /*double notaLing;
+        double notaHum;
+        double notaNat;
+        double notaMat;
+        double notaRed;    */    
 
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("------------------------------------------------------");
+
+            pesoLing = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(pesoLing);
+
+
+
+
+
+            Console.WriteLine("------------------------------------------------------");
         }
     }
 }

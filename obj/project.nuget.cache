@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ARCS+fCdX+tNgTs182kcx/OJ6u+W9uba9iAGOn8jp1CO3RZRMrOg1DIE+riSKzsT9iR2CuyFWlYRm7P1rlqFcg==",
+  "dgSpecHash": "pTQY97q1tnGBNAKjO2rkYOvQz761YswUTLATm/9fIEVNT81dxz87b3x4bvX9CBgDEd9PciuO5wEZ2hyYBcWnzg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Thiago\\Desktop\\CalculadoraEnem\\CalculadoraEnem.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Thiago\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Thiago\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.26\\microsoft.netcore.app.host.win-x64.3.1.26.nupkg.sha512"
+  ],
   "logs": []
 }
