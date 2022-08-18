@@ -36,19 +36,19 @@ namespace CalculadoraEnem
             p.PedirNotas();
 
 
-            p.mediaArit = (p.notaLing + p.notaHum + p.notaNat + p.notaMat + p.notaRed)/5;
-            p.mediaPond = ((p.notaLing * p.pesoLing) + (p.notaHum * p.pesoHum) + (p.notaNat * p.pesoNat) + (p.notaMat * p.pesoMat) + (p.notaRed * p.pesoRed)) / (p.pesoLing + p.pesoHum + p.pesoNat + p.pesoMat + p.pesoRed);
+            p.mediaArit = Math.Round((p.notaLing + p.notaHum + p.notaNat + p.notaMat + p.notaRed)/5, 2, MidpointRounding.AwayFromZero);
+            p.mediaPond = Math.Round(((p.notaLing * p.pesoLing) + (p.notaHum * p.pesoHum) + (p.notaNat * p.pesoNat) + (p.notaMat * p.pesoMat) + (p.notaRed * p.pesoRed)) / (p.pesoLing + p.pesoHum + p.pesoNat + p.pesoMat + p.pesoRed), 2, MidpointRounding.AwayFromZero);
 
             Console.WriteLine("======================================");
             Console.WriteLine($" DISCIPLINA | NOTA | PESO | NOTA*PESO");
-            Console.WriteLine($" LINGUAGENS | {p.notaLing} | {p.pesoLing} | {p.notaLing * p.pesoLing} ");
-            Console.WriteLine($" HUMANAS    | {p.notaHum} | {p.pesoHum} | {p.notaHum * p.pesoHum}");
-            Console.WriteLine($" NATUREZA   | {p.notaNat} | {p.pesoNat} | {p.notaNat * p.pesoNat}");
-            Console.WriteLine($" MATEMÁTICA | {p.notaMat} | {p.pesoMat} | {p.notaMat * p.pesoMat}");
-            Console.WriteLine($" REDAÇÃO    | {p.notaRed} | {p.pesoRed} | {p.notaRed * p.pesoRed}");
+            Console.WriteLine($" LINGUAGENS | {p.notaLing:F2} | {p.pesoLing:F2} | {p.notaLing * p.pesoLing:F2} ");
+            Console.WriteLine($" HUMANAS    | {p.notaHum:F2} | {p.pesoHum:F2} | {p.notaHum * p.pesoHum:F2}");
+            Console.WriteLine($" NATUREZA   | {p.notaNat:F2} | {p.pesoNat:F2} | {p.notaNat * p.pesoNat:F2}");
+            Console.WriteLine($" MATEMÁTICA | {p.notaMat:F2} | {p.pesoMat:F2} | {p.notaMat * p.pesoMat:F2}");
+            Console.WriteLine($" REDAÇÃO    | {p.notaRed:F2} | {p.pesoRed:F2} | {p.notaRed * p.pesoRed:F2}");
             Console.WriteLine("======================================");
-            Console.WriteLine($"MEDIA ARITMÉTICA: {p.mediaArit}");
-            Console.WriteLine($"MEDIA PONDERADA: {p.mediaPond}");
+            Console.WriteLine($"MEDIA ARITMÉTICA: {p.mediaArit:F2}");
+            Console.WriteLine($"MEDIA PONDERADA: {p.mediaPond:F2}");
             Console.WriteLine("======================================");
         }
 
