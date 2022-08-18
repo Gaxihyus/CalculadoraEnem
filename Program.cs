@@ -35,14 +35,21 @@ namespace CalculadoraEnem
 
             p.PedirNotas();
 
-            Console.WriteLine("============\n\n============");
 
             p.mediaArit = (p.notaLing + p.notaHum + p.notaNat + p.notaMat + p.notaRed)/5;
             p.mediaPond = ((p.notaLing * p.pesoLing) + (p.notaHum * p.pesoHum) + (p.notaNat * p.pesoNat) + (p.notaMat * p.pesoMat) + (p.notaRed * p.pesoRed)) / (p.pesoLing + p.pesoHum + p.pesoNat + p.pesoMat + p.pesoRed);
 
-            Console.WriteLine($"Média Aritmetica das notas: {p.mediaArit}\n Média Ponderada das notas: {p.mediaPond} ");
-
-            Console.WriteLine("------------------------------------------------------");
+            Console.WriteLine("======================================");
+            Console.WriteLine($" DISCIPLINA | NOTA | PESO | NOTA*PESO");
+            Console.WriteLine($" LINGUAGENS | {p.notaLing} | {p.pesoLing} | {p.notaLing * p.pesoLing} ");
+            Console.WriteLine($" HUMANAS    | {p.notaHum} | {p.pesoHum} | {p.notaHum * p.pesoHum}");
+            Console.WriteLine($" NATUREZA   | {p.notaNat} | {p.pesoNat} | {p.notaNat * p.pesoNat}");
+            Console.WriteLine($" MATEMÁTICA | {p.notaMat} | {p.pesoMat} | {p.notaMat * p.pesoMat}");
+            Console.WriteLine($" REDAÇÃO    | {p.notaRed} | {p.pesoRed} | {p.notaRed * p.pesoRed}");
+            Console.WriteLine("======================================");
+            Console.WriteLine($"MEDIA ARITMÉTICA: {p.mediaArit}");
+            Console.WriteLine($"MEDIA PONDERADA: {p.mediaPond}");
+            Console.WriteLine("======================================");
         }
 
         void PedirPesos()
@@ -84,7 +91,7 @@ namespace CalculadoraEnem
             Console.WriteLine("Digite a sua nota em Redação");
             notaRed = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine($"Notas listadas:\nLinguagens: {pesoLing}\nHumanas: {pesoHum}\nNatureza: {pesoNat}\nMatemática: {pesoMat}\nRedação: {pesoRed}");
+            Console.WriteLine($"Notas listadas:\nLinguagens: {notaLing}\nHumanas: {notaHum}\nNatureza: {notaNat}\nMatemática: {notaMat}\nRedação: {notaRed}");
 
         }
     }
